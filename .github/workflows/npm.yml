@@ -23,7 +23,7 @@ jobs:
 
       - name: Release
         id: release
-        uses: fdiesel/github-action-node-release@version
+        uses: fdiesel/github-action-node-release@v3.3.0 
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           prefix: v # (optional) default none
